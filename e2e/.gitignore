@@ -1,0 +1,6 @@
+artifacts
+allure-results
+node_modules
+.env
+.env.example
+.idea

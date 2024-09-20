@@ -1,0 +1,23 @@
+{
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "lint": "eslint src --ext ts,tsx",
+    "test-e2e": "playwright test",
+    "test-e2e:record-ui": "playwright test --ui",
+    "allure-report": "allure serve"
+  },
+  "dependencies": {
+    "@faker-js/faker": "8.4.1",
+    "@playwright/test": "1.43.1",
+    "allure-playwright": "2.15.1",
+    "clipboardy": "2.3.0",
+    "dotenv": "16.4.5",
+    "dotenv-expand": "11.0.6",
+    "otpauth": "9.2.3",
+    "winston": "3.13.0",
+  },
+  "devDependencies": {
+    "typescript": "5.4.5"
+  }
+}
